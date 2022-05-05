@@ -1,0 +1,614 @@
+{
+    "Comment": "CREATE/DELETE/UPSERT",
+     "Changes": [ {
+                "Action": "UPSERT",
+                "ResourceRecordSet": {
+				"Name": "ais.cloud.invgate.net.",
+				"Type": "CNAME",
+				"TTL": 120,
+				"ResourceRecords": [
+					{
+						"Value": "ais.sd.cloud.invgate.net"
+					}
+				]
+        }},
+{
+            "Action": "UPSERT",
+            "ResourceRecordSet": {
+				"Name": "alseaco.cloud.invgate.net.",
+				"Type": "CNAME",
+				"TTL": 120,
+				"ResourceRecords": [
+					{
+						"Value": "alseaco.sd.cloud.invgate.net"
+					}
+				]
+			}},
+{
+            "Action": "UPSERT",
+            "ResourceRecordSet": {
+				"Name": "argentilemon.cloud.invgate.net.",
+				"Type": "CNAME",
+				"TTL": 120,
+				"ResourceRecords": [
+					{
+						"Value": "argentilemon.sd.cloud.invgate.net"
+					}
+				]
+			}},
+{           "Action": "UPSERT",
+            "ResourceRecordSet": {
+				"Name": "avn.cloud.invgate.net.",
+				"Type": "CNAME",
+				"TTL": 7200,
+				"ResourceRecords": [
+					{
+						"Value": "avn.sd.cloud.invgate.net"
+					}
+				]
+			}},
+{           
+            "Action": "UPSERT",
+            "ResourceRecordSet": {
+				"Name": "centraloeste.cloud.invgate.net.",
+				"Type": "CNAME",
+				"TTL": 120,
+				"ResourceRecords": [
+					{
+						"Value": "centraloeste.sd.cloud.invgate.net"
+					}
+				]
+			}},
+{           
+            "Action": "UPSERT",
+            "ResourceRecordSet": {
+				"Name": "chilexpress.cloud.invgate.net.",
+				"Type": "CNAME",
+				"TTL": 120,
+				"ResourceRecords": [
+					{
+						"Value": "chilexpress.sd.cloud.invgate.net"
+					}
+				]
+			}},
+{           
+            "Action": "UPSERT",
+            "ResourceRecordSet": {
+				"Name": "chilexpresstest.cloud.invgate.net.",
+				"Type": "CNAME",
+				"TTL": 120,
+				"ResourceRecords": [
+					{
+						"Value": "chilexpresstest.sd.cloud.invgate.net"
+					}
+				]
+			}},
+{           
+            "Action": "UPSERT",
+            "ResourceRecordSet": {
+				"Name": "colfrigos.cloud.invgate.net.",
+				"Type": "CNAME",
+				"TTL": 120,
+				"ResourceRecords": [
+					{
+						"Value": "colfrigos.sd.cloud.invgate.net"
+					}
+				]
+			}},
+{           
+            "Action": "UPSERT",
+            "ResourceRecordSet": {
+				"Name": "cultivares.cloud.invgate.net.",
+				"Type": "CNAME",
+				"TTL": 120,
+				"ResourceRecords": [
+					{
+						"Value": "cultivares.sd.cloud.invgate.net"
+					}
+				]
+			}},
+{           
+            "Action": "UPSERT",
+            "ResourceRecordSet": {
+				"Name": "cybersafe.cloud.invgate.net.",
+				"Type": "CNAME",
+				"TTL": 120,
+				"ResourceRecords": [
+					{
+						"Value": "cybersafe.sd.cloud.invgate.net"
+					}
+				]
+			}},
+{           
+            "Action": "UPSERT",
+            "ResourceRecordSet": {
+				"Name": "datawise.cloud.invgate.net.",
+				"Type": "CNAME",
+				"TTL": 120,
+				"ResourceRecords": [
+					{
+						"Value": "datawise.sd.cloud.invgate.net"
+					}
+				]
+			}},
+{           
+            "Action": "UPSERT",
+            "ResourceRecordSet": {
+				"Name": "demox.cloud.invgate.net.",
+				"Type": "CNAME",
+				"TTL": 120,
+				"ResourceRecords": [
+					{
+						"Value": "demox.sd.cloud.invgate.net"
+					}
+				]
+			}},
+{           
+            "Action": "UPSERT",
+            "ResourceRecordSet": {
+				"Name": "dikamorocco.cloud.invgate.net.",
+				"Type": "CNAME",
+				"TTL": 300,
+				"ResourceRecords": [
+					{
+						"Value": "dikamorocco.sd.cloud.invgate.net"
+					}
+				]
+			}},
+{           
+            "Action": "UPSERT",
+            "ResourceRecordSet": {
+				"Name": "enkei.cloud.invgate.net.",
+				"Type": "CNAME",
+				"TTL": 120,
+				"ResourceRecords": [
+					{
+						"Value": "enkei.sd.cloud.invgate.net"
+					}
+				]
+			}},
+{           
+            "Action": "UPSERT",
+            "ResourceRecordSet": {
+				"Name": "exolgan.cloud.invgate.net.",
+				"Type": "CNAME",
+				"TTL": 120,
+				"ResourceRecords": [
+					{
+						"Value": "exolgan.sd.cloud.invgate.net"
+					}
+				]
+			}},
+{           
+            "Action": "UPSERT",
+            "ResourceRecordSet": {
+				"Name": "gencanna.cloud.invgate.net.",
+				"Type": "CNAME",
+				"TTL": 120,
+				"ResourceRecords": [
+					{
+						"Value": "gencanna.sd.cloud.invgate.net"
+					}
+				]
+			}},
+{           
+            "Action": "UPSERT",
+            "ResourceRecordSet": {
+				"Name": "geobpo.cloud.invgate.net.",
+				"Type": "CNAME",
+				"TTL": 7200,
+				"ResourceRecords": [
+					{
+						"Value": "geobpo.sd.cloud.invgate.net"
+					}
+				]
+			}},
+{           
+            "Action": "UPSERT",
+            "ResourceRecordSet": {
+				"Name": "haken.cloud.invgate.net.",
+				"Type": "CNAME",
+				"TTL": 300,
+				"ResourceRecords": [
+					{
+						"Value": "haken.sd.cloud.invgate.net"
+					}
+				]
+			}},
+{           
+            "Action": "UPSERT",
+            "ResourceRecordSet": {
+				"Name": "harmonyps.cloud.invgate.net.",
+				"Type": "CNAME",
+				"TTL": 120,
+				"ResourceRecords": [
+					{
+						"Value": "harmonyps.sd.cloud.invgate.net"
+					}
+				]
+			}},
+{           
+            "Action": "UPSERT",
+            "ResourceRecordSet": {
+				"Name": "hdlatino.cloud.invgate.net.",
+				"Type": "CNAME",
+				"TTL": 120,
+				"ResourceRecords": [
+					{
+						"Value": "hdlatino.sd.cloud.invgate.net"
+					}
+				]
+			}},
+{           
+            "Action": "UPSERT",
+            "ResourceRecordSet": {
+				"Name": "hogardecristo.cloud.invgate.net.",
+				"Type": "CNAME",
+				"TTL": 120,
+				"ResourceRecords": [
+					{
+						"Value": "hogardecristo.sd.cloud.invgate.net"
+					}
+				]
+			}},
+{           
+            "Action": "UPSERT",
+            "ResourceRecordSet": {
+				"Name": "iccons.cloud.invgate.net.",
+				"Type": "CNAME",
+				"TTL": 120,
+				"ResourceRecords": [
+					{
+						"Value": "iccons.sd.cloud.invgate.net"
+					}
+				]
+			}},
+{           
+            "Action": "UPSERT",
+            "ResourceRecordSet": {
+				"Name": "italmodsa.cloud.invgate.net.",
+				"Type": "CNAME",
+				"TTL": 120,
+				"ResourceRecords": [
+					{
+						"Value": "italmodsa.sd.cloud.invgate.net"
+					}
+				]
+			}},
+{           
+            "Action": "UPSERT",
+            "ResourceRecordSet": {
+				"Name": "itandex9.cloud.invgate.net.",
+				"Type": "CNAME",
+				"TTL": 120,
+				"ResourceRecords": [
+					{
+						"Value": "itandex9.sd.cloud.invgate.net"
+					}
+				]
+			}},
+{           
+            "Action": "UPSERT",
+            "ResourceRecordSet": {
+				"Name": "itecnocar.cloud.invgate.net.",
+				"Type": "CNAME",
+				"TTL": 120,
+				"ResourceRecords": [
+					{
+						"Value": "itecnocar.sd.cloud.invgate.net"
+					}
+				]
+			}},
+{           
+            "Action": "UPSERT",
+            "ResourceRecordSet": {
+				"Name": "itsconglo.cloud.invgate.net.",
+				"Type": "CNAME",
+				"TTL": 120,
+				"ResourceRecords": [
+					{
+						"Value": "itsconglo.sd.cloud.invgate.net"
+					}
+				]
+			}},
+{           
+            "Action": "UPSERT",
+            "ResourceRecordSet": {
+				"Name": "linktic.cloud.invgate.net.",
+				"Type": "CNAME",
+				"TTL": 120,
+				"ResourceRecords": [
+					{
+						"Value": "linktic.sd.cloud.invgate.net"
+					}
+				]
+			}},
+{           
+            "Action": "UPSERT",
+            "ResourceRecordSet": {
+				"Name": "logiktel.cloud.invgate.net.",
+				"Type": "CNAME",
+				"TTL": 120,
+				"ResourceRecords": [
+					{
+						"Value": "logiktel.sd.cloud.invgate.net"
+					}
+				]
+			}},
+{           
+            "Action": "UPSERT",
+            "ResourceRecordSet": {
+				"Name": "mediterranea.cloud.invgate.net.",
+				"Type": "CNAME",
+				"TTL": 120,
+				"ResourceRecords": [
+					{
+						"Value": "mediterranea.sd.cloud.invgate.net"
+					}
+				]
+			}},
+{           
+            "Action": "UPSERT",
+            "ResourceRecordSet": {
+				"Name": "morries.cloud.invgate.net.",
+				"Type": "CNAME",
+				"TTL": 120,
+				"ResourceRecords": [
+					{
+						"Value": "morries.sd.cloud.invgate.net"
+					}
+				]
+			}},
+{           
+            "Action": "UPSERT",
+            "ResourceRecordSet": {
+				"Name": "nasales.cloud.invgate.net.",
+				"Type": "CNAME",
+				"TTL": 120,
+				"ResourceRecords": [
+					{
+						"Value": "nasales.sd.cloud.invgate.net"
+					}
+				]
+			}},
+{           
+            "Action": "UPSERT",
+            "ResourceRecordSet": {
+				"Name": "nubiumd.cloud.invgate.net.",
+				"Type": "CNAME",
+				"TTL": 120,
+				"ResourceRecords": [
+					{
+						"Value": "nubiumd.sd.cloud.invgate.net"
+					}
+				]
+			}},
+{           
+            "Action": "UPSERT",
+            "ResourceRecordSet": {
+				"Name": "osde.cloud.invgate.net.",
+				"Type": "CNAME",
+				"TTL": 120,
+				"ResourceRecords": [
+					{
+						"Value": "osde.sd.cloud.invgate.net"
+					}
+				]
+			}},
+{           
+            "Action": "UPSERT",
+            "ResourceRecordSet": {
+				"Name": "oside.cloud.invgate.net.",
+				"Type": "CNAME",
+				"TTL": 7200,
+				"ResourceRecords": [
+					{
+						"Value": "oside.sd.cloud.invgate.net"
+					}
+				]
+			}},
+{           
+            "Action": "UPSERT",
+            "ResourceRecordSet": {
+				"Name": "pgicing.cloud.invgate.net.",
+				"Type": "CNAME",
+				"TTL": 60,
+				"ResourceRecords": [
+					{
+						"Value": "pgicing.sd.cloud.invgate.net"
+					}
+				]
+			}},
+{           
+            "Action": "UPSERT",
+            "ResourceRecordSet": {
+				"Name": "politecnico.cloud.invgate.net.",
+				"Type": "CNAME",
+				"TTL": 120,
+				"ResourceRecords": [
+					{
+						"Value": "politecnico.sd.cloud.invgate.net"
+					}
+				]
+			}},
+{           
+            "Action": "UPSERT",
+            "ResourceRecordSet": {
+				"Name": "pwc.cloud.invgate.net.",
+				"Type": "CNAME",
+				"TTL": 120,
+				"ResourceRecords": [
+					{
+						"Value": "pwc.sd.cloud.invgate.net"
+					}
+				]
+			}},
+{           
+            "Action": "UPSERT",
+            "ResourceRecordSet": {
+				"Name": "realityworksd.cloud.invgate.net.",
+				"Type": "CNAME",
+				"TTL": 120,
+				"ResourceRecords": [
+					{
+						"Value": "realityworksd.sd.cloud.invgate.net"
+					}
+				]
+			}},
+{           
+            "Action": "UPSERT",
+            "ResourceRecordSet": {
+				"Name": "recsa.cloud.invgate.net.",
+				"Type": "CNAME",
+				"TTL": 120,
+				"ResourceRecords": [
+					{
+						"Value": "recsa.sd.cloud.invgate.net"
+					}
+				]
+			}},
+{           
+            "Action": "UPSERT",
+            "ResourceRecordSet": {
+				"Name": "redcol.cloud.invgate.net.",
+				"Type": "CNAME",
+				"TTL": 120,
+				"ResourceRecords": [
+					{
+						"Value": "redcol.sd.cloud.invgate.net"
+					}
+				]
+			}},
+{           
+            "Action": "UPSERT",
+            "ResourceRecordSet": {
+				"Name": "rsd.cloud.invgate.net.",
+				"Type": "CNAME",
+				"TTL": 120,
+				"ResourceRecords": [
+					{
+						"Value": "rsd.sd.cloud.invgate.net"
+					}
+				]
+			}},
+{           
+            "Action": "UPSERT",
+            "ResourceRecordSet": {
+				"Name": "salon.cloud.invgate.net.",
+				"Type": "CNAME",
+				"TTL": 120,
+				"ResourceRecords": [
+					{
+						"Value": "salon.sd.cloud.invgate.net"
+					}
+				]
+			}},
+{           
+            "Action": "UPSERT",
+            "ResourceRecordSet": {
+				"Name": "segurosnorte.cloud.invgate.net.",
+				"Type": "CNAME",
+				"TTL": 120,
+				"ResourceRecords": [
+					{
+						"Value": "segurosnorte.sd.cloud.invgate.net"
+					}
+				]
+			}},
+{           
+            "Action": "UPSERT",
+            "ResourceRecordSet": {
+				"Name": "sinopec.cloud.invgate.net.",
+				"Type": "CNAME",
+				"TTL": 120,
+				"ResourceRecords": [
+					{
+						"Value": "sinopec.sd.cloud.invgate.net"
+					}
+				]
+			}},
+{           
+            "Action": "UPSERT",
+            "ResourceRecordSet": {
+				"Name": "socleansd.cloud.invgate.net.",
+				"Type": "CNAME",
+				"TTL": 120,
+				"ResourceRecords": [
+					{
+						"Value": "socleansd.sd.cloud.invgate.net"
+					}
+				]
+			}},
+{           
+            "Action": "UPSERT",
+            "ResourceRecordSet": {
+				"Name": "solnaciente.cloud.invgate.net.",
+				"Type": "CNAME",
+				"TTL": 120,
+				"ResourceRecords": [
+					{
+						"Value": "solnaciente.sd.cloud.invgate.net"
+					}
+				]
+			}},
+{           
+            "Action": "UPSERT",
+            "ResourceRecordSet": {
+				"Name": "sommiercenter.cloud.invgate.net.",
+				"Type": "CNAME",
+				"TTL": 120,
+				"ResourceRecords": [
+					{
+						"Value": "sommiercenter.sd.cloud.invgate.net"
+					}
+				]
+			}},
+{           
+            "Action": "UPSERT",
+            "ResourceRecordSet": {
+				"Name": "tagsa.cloud.invgate.net.",
+				"Type": "CNAME",
+				"TTL": 120,
+				"ResourceRecords": [
+					{
+						"Value": "tagsa.sd.cloud.invgate.net"
+					}
+				]
+			}},
+{           
+            "Action": "UPSERT",
+            "ResourceRecordSet": {
+				"Name": "tiksecurity.cloud.invgate.net.",
+				"Type": "CNAME",
+				"TTL": 120,
+				"ResourceRecords": [
+					{
+						"Value": "tiksecurity.sd.cloud.invgate.net"
+					}
+				]
+			}},
+{           
+            "Action": "UPSERT",
+            "ResourceRecordSet": {
+				"Name": "uach.cloud.invgate.net.",
+				"Type": "CNAME",
+				"TTL": 120,
+				"ResourceRecords": [
+					{
+						"Value": "uach.sd.cloud.invgate.net"
+					}
+				]
+			}},
+{           
+            "Action": "UPSERT",
+            "ResourceRecordSet": {
+				"Name": "yaguar.cloud.invgate.net.",
+				"Type": "CNAME",
+				"TTL": 120,
+				"ResourceRecords": [
+					{
+						"Value": "yaguar.sd.cloud.invgate.net"
+					}
+				]
+			}}
+]}
