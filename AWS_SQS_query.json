@@ -1,0 +1,26 @@
+//consulta
+
+aws route53 list-resource-record-sets --hosted-zone-id Z31YNDW4JMTQ4M --query "ResourceRecordSets[?ResourceRecords[?Value == 'shared-019.cloud.invgate.net']]"
+aws route53 list-resource-record-sets --hosted-zone-id Z31YNDW4JMTQ4M --query "ResourceRecordSets[?ResourceRecords[?Value == 'shared-019.cloud.invgate.net']]" |  jq -r '.[].Name'
+
+dig -f listDigShared-19.txt +noall +answer > result19.txt
+
+aws route53 change-resource-record-sets --hosted-zone-id Z31YNDW4JMTQ4M --change-batch file://dnsDS-shared004.json
+aws route53 get-change --id /change/"resultado"
+
+//update
+{
+    "Comment": "CREATE/DELETE/UPSERT",
+     "Changes": [ 
+        {"Action": "UPSERT","ResourceRecordSet": {"Name": "alliedelectest.cloud.invgate.net.","Type": "CNAME","TTL": 120,"ResourceRecords": [{"Value": "alliedelectest.sd.cloud.invgate.net"}]    }},
+        {"Action": "UPSERT","ResourceRecordSet": {"Name": "alpiste.cloud.invgate.net.","Type": "CNAME","TTL": 120,"ResourceRecords": [{"Value": "alpiste.sd.cloud.invgate.net"}]    }},
+        {"Action": "UPSERT","ResourceRecordSet": {"Name": "andlogistics.cloud.invgate.net.","Type": "CNAME","TTL": 120,"ResourceRecords": [{"Value": "andlogistics.sd.cloud.invgate.net"}]    }},
+        {"Action": "UPSERT","ResourceRecordSet": {"Name": "clc.cloud.invgate.net.","Type": "CNAME","TTL": 120,"ResourceRecords": [{"Value": "clc.sd.cloud.invgate.net"}]    }},
+        {"Action": "UPSERT","ResourceRecordSet": {"Name": "csjv.cloud.invgate.net.","Type": "CNAME","TTL": 120,"ResourceRecords": [{"Value": "csjv.sd.cloud.invgate.net"}]    }},
+        {"Action": "UPSERT","ResourceRecordSet": {"Name": "elespectador.cloud.invgate.net.","Type": "CNAME","TTL": 120,"ResourceRecords": [{"Value": "elespectador.sd.cloud.invgate.net"}]    }},
+        {"Action": "UPSERT","ResourceRecordSet": {"Name": "dioxiteksd.cloud.invgate.net.","Type": "CNAME","TTL": 120,"ResourceRecords": [{"Value": "dioxiteksd.sd.cloud.invgate.net"}]    }},
+        {"Action": "UPSERT","ResourceRecordSet": {"Name": "reinventa.cloud.invgate.net.","Type": "CNAME","TTL": 120,"ResourceRecords": [{"Value": "reinventa.sd.cloud.invgate.net"}]    }},
+        {"Action": "UPSERT","ResourceRecordSet": {"Name": "runco.cloud.invgate.net.","Type": "CNAME","TTL": 120,"ResourceRecords": [{"Value": "runco.sd.cloud.invgate.net"}]    }},
+        {"Action": "UPSERT","ResourceRecordSet": {"Name": "atpingenieria.cloud.invgate.net.","Type": "CNAME","TTL": 120,"ResourceRecords": [{"Value": "atpingenieria.sd.cloud.invgate.net"}]    }},
+        {"Action": "UPSERT","ResourceRecordSet": {"Name": "visuar.cloud.invgate.net.","Type": "CNAME","TTL": 120,"ResourceRecords": [{"Value": "visuar.sd.cloud.invgate.net"}]    }}
+]}
