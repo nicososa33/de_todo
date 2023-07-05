@@ -1,0 +1,21 @@
+#create a new workflow file to deploy a app on github action on local minikube 
+
+on: [push]
+
+  name: deploy
+  jobs: 
+    deploy:
+        name: deploy to minikube
+        runs-on: ubuntu-latest
+        steps:
+            - uses: actions/checkout@v2
+            - name: build and push to docker
+              uses: docker/build-push-action@v2
+              with:
+                username: ${{ secrets.DOCKER_HUB_USERNAME }}
+                password: ${{ secrets.DOCKER_HUB_PASSWORD }}
+                repository: ${{ github.repository }}
+                tag_with_ref: true
+                tags_with_sha: true
+                tag: ${{ github.sha }}
+
