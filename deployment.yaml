@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  labels:
+    name: test-gha
+  spec:
+    replicas: 2
+    selector:
+      matchLabels:
+        name: test-gha
+    template:
+      metadata:
+        labels:
+          name: test-gha
+      spec:
+        containers:
+        - name: test-gha
+          image: nicososa33/de_todo
+          ports:
+          - containerPort: 80
+            name: http
