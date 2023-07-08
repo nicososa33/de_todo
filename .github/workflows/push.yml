@@ -28,7 +28,7 @@ jobs:
         args: set image --record deployment/test test-gha=${{ github.repository }}:${{ github.sha }}
     - name: show deployment status
       uses: appleboy/kubectl-action@master
-      env:
-        KUBE_CONFIG_DATA: ${{ secrets.KUBE_CONFIG_DATA }}
+      #env:
+        #KUBE_CONFIG_DATA: ${{ secrets.KUBE_CONFIG_DATA }}
       with:
             args: rollout status deployment/test
